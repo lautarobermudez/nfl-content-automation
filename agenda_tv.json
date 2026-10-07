@@ -1,0 +1,54 @@
+{
+  "_ayuda": "Texto del parrafo '¿Por dónde ver…?' de las notas de partido, por cadena de EEUU (la que informa ESPN). 'confirmado': false = texto provisional que NO validó el usuario: agenda_partido.py avisa y no deja publicar hasta que se lo marque en true (o se use --tv-sin-confirmar). {relatos} se reemplaza por ', con los relatos de X' (o nada si no hay). Los relatores CAMBIAN POR PARTIDO (FOX tiene varios equipos): nunca ponerlos por defecto, pasarlos con 'relatos:' en la nota (cuadro de asignaciones de la semana, ej. awfulannouncing.com). El bloque 'latam_espana' va después y es solo el POR DEFECTO de FOX: los canales de México/Sudamérica cambian por partido (ej. Cowboys-Texans en México = Canal Nueve, Broncos-49ers = Canal 5, Colts-Commanders = ESPN/Disney+): pisarlo con 'latam:' en la nota tras verificarlo (Infobae 'Semana N NFL canales México').",
+  "latam_espana": "En **México** se podrá ver en Cadena 5, en **Argentina** por Fox Sports 2, en el resto de Sudamérica por ESPN 5 y en Centroamérica por ESPN 2. En el caso de **España**, se verá por el NFL GamePass pago de DAZN.",
+  "alias_cadenas": {
+    "FOX": "FOX",
+    "CBS": "CBS",
+    "NBC": "NBC",
+    "ESPN": "ESPN",
+    "ABC": "ESPN",
+    "ESPN/ABC": "ESPN",
+    "PRIME VIDEO": "PRIME",
+    "AMAZON PRIME VIDEO": "PRIME",
+    "NFL NET": "NFLN",
+    "NFL NETWORK": "NFLN",
+    "NETFLIX": "NETFLIX"
+  },
+  "redes": {
+    "FOX": {
+      "confirmado": true,
+      "eeuu": "**En EEUU**, la transmisión televisiva en vivo estará disponible de manera exclusiva **a través de la cadena FOX**{relatos}. En cuanto al streaming local, en FOX One.",
+      "relatos": null
+    },
+    "CBS": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, la transmisión televisiva en vivo estará disponible de manera exclusiva **a través de la cadena CBS**{relatos}. En cuanto al streaming local, en Paramount+.",
+      "relatos": null
+    },
+    "NBC": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, la transmisión televisiva en vivo estará disponible de manera exclusiva **a través de la cadena NBC**{relatos}, como parte del Sunday Night Football. En cuanto al streaming local, en Peacock.",
+      "relatos": null
+    },
+    "PRIME": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, el partido estará disponible de manera exclusiva **a través de Amazon Prime Video**{relatos}, como parte del Thursday Night Football.",
+      "relatos": null
+    },
+    "ESPN": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, la transmisión televisiva en vivo estará disponible **a través de ESPN y ABC**{relatos}, como parte del Monday Night Football. En cuanto al streaming local, en ESPN+.",
+      "relatos": null
+    },
+    "NFLN": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, la transmisión televisiva en vivo estará disponible de manera exclusiva **a través de NFL Network**{relatos}. En cuanto al streaming local, en NFL+.",
+      "relatos": null
+    },
+    "NETFLIX": {
+      "confirmado": false,
+      "eeuu": "**En EEUU**, el partido estará disponible de manera exclusiva **a través de Netflix**{relatos}.",
+      "relatos": null
+    }
+  }
+}

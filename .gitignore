@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+Thumbs.db
+token.json
+client_secret.json
+salida/
+notas/
+images/
+.ultimo_video_cache.json
+config.json
